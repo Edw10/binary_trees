@@ -4,12 +4,12 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_balance - return the nodes of a binary tree
- * @tree: a pointer to the tree to traverse
+ * binary_tree_balance - return the balance factpr of a node
+ * @tree: a pointer to the node
  * Return: the number of the nodes with at least 1 child
  */
 
-size_t binary_tree_balance(const binary_tree_t *tree)
+int binary_tree_balance(const binary_tree_t *tree)
 {
 	size_t b = 0;
 
